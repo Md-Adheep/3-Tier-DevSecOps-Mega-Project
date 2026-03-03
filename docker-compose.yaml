@@ -8,10 +8,10 @@ seces:
     environment:
       MYSQL_ROOT_PASSWORD: Aditya
       MYSQL_DATABASE: crud_app
-    volumes:
+    volmes:
       - mysql-data:/var/lib/mysql
       - ./mysql-init:/docker-entrypoint-initdb.d
-    ports:
+    pots:
       - "3306:3306"
 
   backend:
