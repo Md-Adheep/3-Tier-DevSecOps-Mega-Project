@@ -1,6 +1,6 @@
 version: '3.8'
 
-services:
+seces:
   mysql:
     image: mysql:8
     container_name: mysql
